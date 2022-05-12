@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,500&family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: top center;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+main .underlogo,
+.form {
+  margin: 4rem auto;
+}
+header {
+  margin-top: 2rem;
+}
+.underlogo {
+  background-color: rgba(240, 248, 255, 0.525);
+  border: solid black;
+  border-width: 1rem;
+
+  width: 60rem;
+}
+.underlogo p {
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+}
+.underlogo h1 {
+  text-align: center;
+  margin-top: 1rem;
+}
+h1 {
+  font-size: 35px;
+}
+.form {
+  background-color: rgba(240, 248, 255, 0.541);
+  font-size: 20px;
+  color: black;
+  display: block;
+  margin-top: 3rem;
+  width: 60rem;
+}
+h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+.form p {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+form {
+  padding: 1rem;
+}
+input {
+  display: block;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 1.6rem;
+  font-style: italic;
+}
+
+label {
+  color: white;
+  background-color: black;
+  padding: 0.5rem;
+  display: block;
+  font-size: small;
+  text-align: left;
+  width: 60%;
+  margin: auto;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: hidden;
+  margin: 2px auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 16px;
+  font-style: italic;
+  display: block;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
